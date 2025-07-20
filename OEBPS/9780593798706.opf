@@ -1,0 +1,184 @@
+<package xmlns="http://www.idpf.org/2007/opf" prefix="tdm: http://www.w3.org/ns/tdmrep# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" unique-identifier="EbookISBN" version="3.0" xml:lang="en-US">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title id="maintitle">The Technological Republic: Hard Power, Soft Belief, and the Future of the West</dc:title>
+    <dc:creator id="id-1">Alexander C Karp</dc:creator>
+    <dc:creator id="id-2">Nicholas W. Zamiska</dc:creator>
+    <dc:rights>Copyright © 2025 by Alexander C. Karp and Nicholas W. Zamiska</dc:rights>
+    <dc:identifier>isbn:9780593798706</dc:identifier>
+    <dc:identifier>google:SPkIEQAAQBAJ</dc:identifier>
+    <dc:identifier>calibre:3073</dc:identifier>
+    <dc:identifier>uuid:da3859a5-5a90-4805-a620-bbdd1917083e</dc:identifier>
+    <dc:identifier id="EbookISBN">9780593798706</dc:identifier>
+    <dc:source id="SourceISBN">9780593798690</dc:source>
+    <dc:language>en-US</dc:language>
+    <dc:contributor id="id">calibre (7.24.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:date>2025-01-31T23:00:00+00:00</dc:date>
+    <dc:description>&lt;div&gt;
+&lt;p&gt;From the Palantir co-founder, one of tech’s boldest thinkers and The Economist’s “best CEO of 2024,” and his deputy, a sweeping indictment of the West’s culture of complacency, arguing that timid leadership, intellectual fragility, and an unambitious view of technology’s potential in Silicon Valley have made the U.S. vulnerable in an era of mounting global threats.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;“Fascinating and important.”—Walter Isaacson, #1 New York Times bestselling author of Elon Musk&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;ONE OF FINANCIAL TIMES’ MOST ANTICIPATED BOOKS OF THE YEAR&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Silicon Valley has lost its way.&lt;/p&gt;
+&lt;p&gt;Our most brilliant engineering minds once collaborated with government to advance world-changing technologies. Their efforts secured the West’s dominant place in the geopolitical order. But that relationship has now eroded, with perilous repercussions.&lt;/p&gt;
+&lt;p&gt;Today, the market rewards shallow engagement with the potential of technology. Engineers and founders build photo-sharing apps and marketing algorithms, unwittingly becoming vessels for the ambitions of others. This complacency has spread into academia, politics, and the boardroom. The result? An entire generation for whom the narrow-minded pursuit of the demands of a late capitalist economy has become their calling.&lt;/p&gt;
+&lt;p&gt;In this groundbreaking treatise, Palantir co-founder and CEO Alexander C. Karp and Nicholas W. Zamiska offer a searing critique of our collective abandonment of ambition, arguing that in order for the U.S. and its allies to retain their global edge—and preserve the freedoms we take for granted—the software industry must renew its commitment to addressing our most urgent challenges, including the new arms race of artificial intelligence. The government, in turn, must embrace the most effective features of the engineering mindset that has propelled Silicon Valley’s success.&lt;/p&gt;
+&lt;p&gt;Above all, our leaders must reject intellectual fragility and preserve space for ideological confrontation. A willingness to risk the disapproval of the crowd, Karp and Zamiska contend, has everything to do with technological and economic outperformance.&lt;/p&gt;
+&lt;p&gt;At once iconoclastic and rigorous, this book will also lift the veil on Palantir and its broader political project from the inside, offering a passionate call for the West to wake up to our new reality. &lt;br&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+    <dc:publisher>Crown</dc:publisher>
+    <dc:subject>Business &amp; Economics</dc:subject>
+    <dc:subject>Government &amp; Business</dc:subject>
+    <dc:subject>Computers</dc:subject>
+    <dc:subject>History</dc:subject>
+    <dc:subject>Political Science</dc:subject>
+    <dc:subject>Public Policy</dc:subject>
+    <dc:subject>Science &amp; Technology Policy</dc:subject>
+    <meta content="coverimg" name="cover"/>
+    <meta content="2025-01-10T00:00:00Z" name="created"/>
+    <meta content="Easypress PRH_prodF2" name="generator"/>
+    <opf:meta refines="#maintitle" property="title-type">main</opf:meta>
+    <opf:meta refines="#maintitle" property="file-as">The Technological Republic</opf:meta>
+    <meta content="Crown Currency" name="imprint"/>
+    <meta property="dcterms:modified">2025-01-23T17:07:49Z</meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta content="2.6.0" name="EPUB_Scrub_version"/>
+    <meta content="2025-01-23T17:07:49Z" name="EPUB_Scrub_date"/>
+    <meta property="tdm:reservation">1</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">displayTransformability</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">ARIA</meta>
+    <meta property="schema:accessibilityFeature">pageBreakMarkers</meta>
+    <meta property="schema:accessibilityFeature">pageNavigation</meta>
+    <meta property="pageBreakSource">urn:isbn:9780593798706</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">index</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilitySummary">This ebook features mark-up that supports accessibility and enables compatibility with assistive technology. It has been designed to allow display properties to be modified by the reader. The file includes a table of contents, a defined reading order, and ARIA roles to identify key sections and improve the reading experience. A page list and page break locations help readers coordinate with the print edition. Headings allow readers to navigate the ebook quickly by level. Images are well described in conformance with WCAG 2.1 Level AA. There is a fully linked and navigable index. Colors meet WCAG 2.1 Level AA contrast standards. There are no hazards.</meta>
+    <meta id="conf" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.1 Level AA</meta>
+    <meta property="a11y:certifiedBy" refines="#conf">Penguin Random House LLC</meta>
+    <meta content="1/23/2025, 5:08:22 PM" name="Ace_date"/>
+    <meta content="1.3.2" name="Ace_version"/>
+    <meta content="Pass" name="Ace_result"/>
+    <opf:meta refines="#id" property="role" scheme="marc:relators">bkp</opf:meta>
+    <opf:meta refines="#id-1" property="role" scheme="marc:relators">aut</opf:meta>
+    <opf:meta refines="#id-1" property="file-as">Karp, Alexander C</opf:meta>
+    <opf:meta refines="#id-2" property="role" scheme="marc:relators">aut</opf:meta>
+    <opf:meta refines="#id-2" property="file-as">Zamiska, Nicholas W.</opf:meta>
+  </metadata>
+  <manifest>
+    <item href="xhtml/Karp_9780593798706_epub3_cvi_r1.xhtml" id="cvi" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_fsq_r1.xhtml" id="fsq" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_tp_r1.xhtml" id="tp" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_cop_r1.xhtml" id="cop" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_toc_r1.xhtml" id="inlinetoc" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_ded_r1.xhtml" id="ded" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_epi_r1.xhtml" id="epi" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_loi_r1.xhtml" id="loi" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_prf_r1.xhtml" id="prf" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_p001_r1.xhtml" id="p001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c001_r1.xhtml" id="c001" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c002_r1.xhtml" id="c002" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c003_r1.xhtml" id="c003" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c004_r1.xhtml" id="c004" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_p002_r1.xhtml" id="p002" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c005_r1.xhtml" id="c005" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c006_r1.xhtml" id="c006" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c007_r1.xhtml" id="c007" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c008_r1.xhtml" id="c008" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c009_r1.xhtml" id="c009" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_p003_r1.xhtml" id="p003" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c010_r1.xhtml" id="c010" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c011_r1.xhtml" id="c011" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c012_r1.xhtml" id="c012" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c013_r1.xhtml" id="c013" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c014_r1.xhtml" id="c014" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_p004_r1.xhtml" id="p004" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c015_r1.xhtml" id="c015" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c016_r1.xhtml" id="c016" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c017_r1.xhtml" id="c017" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_c018_r1.xhtml" id="c018" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_ack_r1.xhtml" id="ack" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_nts_r1.xhtml" id="nts" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_bib_r1.xhtml" id="bib" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_cre_r1.xhtml" id="cre" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_idx_r1.xhtml" id="idx" media-type="application/xhtml+xml"/>
+    <item href="xhtml/Karp_9780593798706_epub3_ata_r1.xhtml" id="ata" media-type="application/xhtml+xml"/>
+    <item href="xhtml/next-reads.xhtml" id="next-reads.xhtml" media-type="application/xhtml+xml"/>
+    <item href="9780593798706_nav.xhtml" id="generatedNavDoc" media-type="application/xhtml+xml" properties="nav"/>
+    <item href="9780593798706_ncx.ncx" id="toc" media-type="application/x-dtbncx+xml"/>
+    <item href="css/9780593798706_style.css" id="css1" media-type="text/css"/>
+    <item href="css/prh_resets.css" id="extra1" media-type="text/css"/>
+    <item href="css/rh_static.css" id="extra2" media-type="text/css"/>
+    <item href="images/001_Karp_9780593798690_all_art_r2.jpg" id="img9" media-type="image/jpeg"/>
+    <item href="images/002_Karp_9780593798690_all_art_r3.jpg" id="img10" media-type="image/jpeg"/>
+    <item href="images/003_Karp_9780593798690_all_art_r3.jpg" id="img11" media-type="image/jpeg"/>
+    <item href="images/004_Karp_9780593798690_all_art_r1.jpg" id="img12" media-type="image/jpeg"/>
+    <item href="images/005_Karp_9780593798690_all_art_r5.jpg" id="img13" media-type="image/jpeg"/>
+    <item href="images/006_Karp_9780593798690_all_art_r2.jpg" id="img15" media-type="image/jpeg"/>
+    <item href="images/007_Karp_9780593798690_all_art_r4.jpg" id="img16" media-type="image/jpeg"/>
+    <item href="images/008a_Karp_9780593798690_all_art_r1.jpg" id="img2" media-type="image/jpeg"/>
+    <item href="images/009_Karp_9780593798690_all_art_r1.jpg" id="img3" media-type="image/jpeg"/>
+    <item href="images/010_Karp_9780593798690_all_art_r1.jpg" id="img4" media-type="image/jpeg"/>
+    <item href="images/011d_Karp_9780593798690_all_art_r2.jpg" id="img5" media-type="image/jpeg"/>
+    <item href="images/012_Karp_9780593798690_all_art_r1.jpg" id="img6" media-type="image/jpeg"/>
+    <item href="images/013_Karp_9780593798690_all_art_r2.jpg" id="img7" media-type="image/jpeg"/>
+    <item href="images/014_Karp_9780593798690_all_art_r1.jpg" id="img8" media-type="image/jpeg"/>
+    <item href="images/015b_Karp_9780593798690_all_art_r4.jpg" id="img14" media-type="image/jpeg"/>
+    <item href="images/9780593798706_cover.jpg" id="coverimg" media-type="image/jpeg" properties="cover-image"/>
+    <item href="images/9780593798706_title_page.jpg" id="img1" media-type="image/jpeg"/>
+    <item href="images/next-reads_logo.jpg" id="next-reads_logo.jpg" media-type="image/jpeg"/>
+    <item href="fonts/Shift-Bold.otf" id="Shift-Bold.otf" media-type="font/otf"/>
+    <item href="fonts/Shift-BoldItalic.otf" id="Shift-BoldItalic.otf" media-type="font/otf"/>
+  </manifest>
+  <spine toc="toc">
+    <itemref idref="cvi"/>
+    <itemref idref="fsq"/>
+    <itemref idref="tp"/>
+    <itemref idref="cop"/>
+    <itemref idref="inlinetoc"/>
+    <itemref idref="ded"/>
+    <itemref idref="epi"/>
+    <itemref idref="loi"/>
+    <itemref idref="prf"/>
+    <itemref idref="p001"/>
+    <itemref idref="c001"/>
+    <itemref idref="c002"/>
+    <itemref idref="c003"/>
+    <itemref idref="c004"/>
+    <itemref idref="p002"/>
+    <itemref idref="c005"/>
+    <itemref idref="c006"/>
+    <itemref idref="c007"/>
+    <itemref idref="c008"/>
+    <itemref idref="c009"/>
+    <itemref idref="p003"/>
+    <itemref idref="c010"/>
+    <itemref idref="c011"/>
+    <itemref idref="c012"/>
+    <itemref idref="c013"/>
+    <itemref idref="c014"/>
+    <itemref idref="p004"/>
+    <itemref idref="c015"/>
+    <itemref idref="c016"/>
+    <itemref idref="c017"/>
+    <itemref idref="c018"/>
+    <itemref idref="ack"/>
+    <itemref idref="nts"/>
+    <itemref idref="bib"/>
+    <itemref idref="cre"/>
+    <itemref idref="idx"/>
+    <itemref idref="ata"/>
+    <itemref idref="next-reads.xhtml"/>
+  </spine>
+  <guide>
+    <reference href="xhtml/Karp_9780593798706_epub3_cvi_r1.xhtml" title="Cover" type="cover"/>
+    <reference href="xhtml/Karp_9780593798706_epub3_toc_r1.xhtml" title="Table of Contents" type="toc"/>
+    <reference href="xhtml/Karp_9780593798706_epub3_ded_r1.xhtml" title="Text" type="text"/>
+    <reference href="xhtml/Karp_9780593798706_epub3_ded_r1.xhtml" title="Start" type="start"/>
+    <reference href="xhtml/Karp_9780593798706_epub3_cop_r1.xhtml" title="Copyright" type="copyright-page"/>
+  </guide>
+</package>

@@ -1,0 +1,923 @@
+/* ========== DEFAULTS: Easypress and Vendor ===========*/
+/* version 1.0.2 */
+/* --------------- paragraph and alignment classes --------------- */
+.indent {
+	text-indent: 1.5em;
+}
+.small {
+	font-size: 0.9em;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+	text-indent: 0;
+}
+/* ---------------- heading alignment --------------- */
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+/* --------------- default textbox styles --------------- */
+aside.textbox, div.textbox {
+	margin: 2em 4% 2em 4%;
+	padding: 4%;
+}
+.textbox {
+	border: 1px solid;
+}
+/* --------------- create space above paragraph --------------- */
+p.spaceabove, div.spaceabove, li.spaceabove {
+	margin-top: 1em;
+}
+p.morespaceabove, div.morespaceabove, li.morespaceabove {
+	margin-top: 2.5em;
+}
+p.nospaceabove {
+	margin-top: 0;
+}
+.page_top_padding {
+	margin-top: 10%;
+}
+/* --------------- hanging indents --------------- */
+p.hanging {
+	margin-left: 10%;
+	text-indent: -10%;
+	text-align: left;
+}
+/* --------------- figure and figcaption -----------------*/
+.figure {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	page-break-inside: avoid;
+}
+.figure_top {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0;
+	page-break-inside: avoid;
+}
+.figure_bottom {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1em;
+	page-break-inside: avoid;
+}
+.figure_nomargin {
+	text-align: center;
+	page-break-inside: avoid;
+}
+div.figcaption, figcaption.figcaption {
+	text-align: center;
+}
+.figcaption {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1em;
+}
+p.figcaption {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+.figcopyright {
+	text-align: left;
+	font-size: 0.7em;
+}
+span.figure_inline img {
+	vertical-align: middle;
+}
+/* ---------------- image classes -------------------*/
+.width_100 {
+	width: 100%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_90 {
+	margin: 0 5%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_80 {
+	margin: 0 10%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_70 {
+	margin: 0 15%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_60 {
+	margin: 0 20%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_50 {
+	margin: 0 25%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_40 {
+	margin: 0 30%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_30 {
+	margin: 0 35%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_20 {
+	margin: 0 40%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_10 {
+	margin: 0 45%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.height_100 {
+	text-align: center;
+	height: 100%;
+	height: 98vh;
+	max-height: 100%;
+	max-width: 100%;
+	clear: both;
+}
+img.inline {
+	vertical-align: middle;
+}
+/* ---------------- character styles --------------- */
+.underline {
+	text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+.roman {
+	font-style: normal;
+}
+/* ===================== END DEFAULTS ==================*/
+.para-ataf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 1.36em;
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: justify;
+	margin-top: 0;
+}
+.para-atat-ata-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-ausigf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 1.36em;
+	text-align: right;
+	margin-bottom: 0;
+}
+.para-ausigl {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: right;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-bib {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.84em;
+	line-height: inherit;
+	text-indent: -4%;
+	margin-left: 4%;
+	text-align: left;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-bmh1 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 1.69em;
+	margin-bottom: 0.6em;
+	text-align: center;
+}
+.para-bmp {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-indent: 4%;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-bmpaft {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-bmpf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-bmt-ack-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-bmt-bib-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-bmt-cre-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-bmt-idx-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-bmt-nt-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-cip {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: inherit;
+	text-indent: -1.9%;
+	margin-left: 1.9%;
+	text-align: left;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-cipf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: inherit;
+	margin-top: 0.65em;
+	text-align: justify;
+	margin-bottom: 0;
+}
+.para-cn-chap-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 0.48em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-crt {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: inherit;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-crtf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: inherit;
+	margin-top: 0.65em;
+	text-align: justify;
+	margin-bottom: 0;
+}
+.para-crtf-alt {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: inherit;
+	margin-top: 0.65em;
+	text-align: left;
+	margin-bottom: 0;
+}
+.para-crtf-crt-pg {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: inherit;
+	margin-top: 0.69em;
+	text-align: justify;
+	margin-bottom: 0;
+}
+.para-ct {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	line-height: inherit;
+	margin-bottom: 3.64em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-ded-alt1 {
+	font-style: italic;
+	font-size: 0.86em;
+	line-height: inherit;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-ded-alt2 {
+	font-style: italic;
+	font-size: 0.86em;
+	line-height: inherit;
+	margin-top: 0.95em;
+	margin-bottom: 0.95em;
+	text-align: center;
+}
+.para-ded-alt3 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.86em;
+	line-height: inherit;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-dedf-ded-pg {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-diaf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 1.36em;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	text-align: left;
+	margin-bottom: 0;
+}
+.para-dias {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 1.36em;
+	margin-bottom: 1.36em;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	text-align: left;
+}
+.para-en {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.84em;
+	line-height: inherit;
+	text-indent: -8.1%;
+	margin-left: 8.1%;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-en-alt {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.84em;
+	line-height: inherit;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-epif {
+	font-style: italic;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-epif-epi-pg {
+	font-style: italic;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-eps {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 0.68em;
+	text-align: center;
+	margin-bottom: 0;
+}
+.para-extf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 1.36em;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	text-align: justify;
+	margin-bottom: 0;
+}
+.para-extl {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 1.36em;
+	text-indent: 4.7%;
+	margin-left: 4.7%;
+	margin-right: 4.7%;
+	text-align: justify;
+	margin-top: 0;
+}
+.para-fmp {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-indent: 4%;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-fmpf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 1.09em;
+	text-align: justify;
+	margin-bottom: 0;
+}
+.para-fmt-lil-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-fmt-pre-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-fmt-toc-pg {
+	font-style: italic;
+	font-size: 1.45em;
+	line-height: inherit;
+	margin-bottom: 4em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-fn {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.82em;
+	line-height: inherit;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-fsqf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.91em;
+	line-height: inherit;
+	margin-top: 1.2em;
+	text-align: justify;
+	margin-bottom: 0;
+}
+.para-fsqs {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.82em;
+	line-height: inherit;
+	margin-top: 0.33em;
+	text-align: right;
+	margin-bottom: 0;
+	margin-left: 25%;
+}
+.para-fst-fs-pg {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.09em;
+	line-height: inherit;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-illcapf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: inherit;
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.para-illcap {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 0;
+}
+.para-orn {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	color: #767676;
+	line-height: inherit;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+.para-orn3 {
+	font-style: italic;
+	font-size: 1.64em;
+	color: #b6b6b6;
+	line-height: inherit;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	text-indent: 0;
+}
+.para-p {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-indent: 4%;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-paft {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-pf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: justify;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-pn-part-pg {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2.36em;
+	line-height: inherit;
+	margin-bottom: 0.29em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-pt {
+	font-style: italic;
+	font-size: 2em;
+	line-height: inherit;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.para-toc {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 0.54em;
+	text-align: left;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.para-tocbm {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 0.54em;
+	text-align: left;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.para-tocbmf {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-top: 1.09em;
+	margin-bottom: 0.54em;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.para-tocfm {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 0.54em;
+	text-align: left;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.para-tocfml {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 0.54em;
+	text-align: left;
+	margin-top: 0;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.para-tocpn {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.27em;
+	line-height: inherit;
+	margin-top: 0.86em;
+	margin-bottom: 0.21em;
+	text-align: center;
+}
+.para-tocpt {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.09em;
+	line-height: inherit;
+	margin-bottom: 1em;
+	text-align: center;
+	margin-top: 0;
+}
+.para-ul {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 1.36em;
+	text-indent: -5%;
+	margin-left: 5%;
+	text-align: left;
+	margin-top: 0;
+}
+.para-ull {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	margin-bottom: 1.36em;
+	text-indent: -5%;
+	margin-left: 5%;
+	text-align: left;
+	margin-top: 0;
+}
+.char-ccust3 {
+	font-size: 1.09em;
+	color: #767676;
+}
+.char-ccust4 {
+	font-size: 1em;
+	color: #b6b6b6;
+	line-height: inherit;
+}
+.char-ccust50 {}
+.char-diaspk {}
+.char-first {}
+.char-fnref {}
+.char-i {
+	font-style: italic;
+}
+.char-kp {
+	font-weight: bold;
+	font-size: 0.79em;
+}
+.char-kp-i {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.79em;
+}
+.char-scc {}
+.char-tocemb {
+	font-style: italic;
+	font-size: 1em;
+}
+.char-tocemb-alt {
+	font-style: italic;
+	font-size: 1em;
+	padding-right: 0.5em;
+}
+.char-url {}
+.char-dropcap-DC::first-letter {
+	font-size: 0.92em;
+	color: #767676;
+}
+.width_33 {
+	margin: 0 33.5%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+.width_85 {
+	margin: 0 7.5%;
+	text-align: center;
+	max-height: 100%;
+	clear: both;
+}
+p.link_to_text {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 0.7em;
+	line-height: inherit;
+	text-align: justify;
+	margin: 1em 0 1.5em 8.1%;
+}
+ol.blindnotes {
+	list-style-type: none;
+	padding: 0;
+}
+li.para-en {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: justify;
+	padding: 0;
+	margin: 0;
+}
+section.index-section {}
+section.index-nav-bar {
+	margin: 1em 0;
+	page-break-inside: avoid;
+	border-bottom: 2px solid #757575;
+	border-top: 2px solid #757575;
+	width: 100%;
+}
+span.index-nav-bar-letter {
+	text-align: center;
+	padding: 0.15em;
+	color: #757575;
+}
+ul.index {
+	list-style-type: none;
+	font-size: 1em;
+	padding: 0;
+}
+p.index-nav-bar {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-indent: 0;
+	text-align: center;
+	margin: 0.1em;
+	padding: 0.4em;
+}
+p.para-inhn {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	text-indent: 0;
+	margin: 0 0 1em 0;
+}
+h2.para-inh1 {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.3em;
+	line-height: 1.3;
+	text-indent: 0;
+	text-align: left;
+	margin: 2em 0 0 0;
+}
+li.para-in {
+	font-size: 1em;
+	margin-left: 0;
+}
+p.para-in {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: 1.4;
+	text-indent: -2em;
+	text-align: left;
+	margin: 0.8em 0 0 2em;
+}
+li.para-in1 {
+	font-size: 1em;
+	margin-left: 0;
+}
+p.para-in1 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: 1.4;
+	text-indent: -2em;
+	text-align: left;
+	margin: 0.8em 0 0 4em;
+}
+.figcaption_width_90 {
+	margin-top: 0.5em;
+}
+.para-p-cre {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+	line-height: inherit;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+.ch-orn {
+	font-size: 1.2em;
+	text-align: center;
+	margin: 0 0 0 0;
+}

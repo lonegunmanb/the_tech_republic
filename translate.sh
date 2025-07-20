@@ -26,7 +26,7 @@ Your task is to read the file at '${src_file}', translate its content to Chinese
 You must only write the translated content to the file, with no extra commentary or text.
 " -y
     echo "--- Finished $(basename "$src_file") ---"
-    sleep 60s
+    sleep 5m
   fi
 }
 

@@ -23,6 +23,7 @@ translate_if_needed() {
     # Execute the translation command in a non-interactive mode.
     gemini -p "
 Your task is to read the file at '${src_file}', translate its content to Chinese, and then use the \`write_file\` tool to save the translated text to '${dest_file}'.
+Do not attempt to call any external resource or service. Read the file, then translate.
 You must only write the translated content to the file, with no extra commentary or text.
 " -y
     echo "--- Finished $(basename "$src_file") ---"
